@@ -34,6 +34,7 @@ feathers generate app
 ```
 npm start
 ```
+***
 
 ## Set up your Postgres Database
 - Run your postgres
@@ -67,6 +68,7 @@ databasebane=# SELECT * FROM message;
 
 ```
 
+***
 
 ## Generate a Sequelize Service in Feathers
 - Some additional dependencies are needed in order to use Sequelize and Feathers together.
@@ -97,6 +99,8 @@ require('dotenv').config();
 
 const connectionString = `postgres://${process.env.PGNAME}:${process.env.PGPASS}@localhost:${process.env.PGPORT}/postgres`
 ```
+
+***
 
 ## Create a Model
 The main one you should focus on is src/models/message.model.js.
@@ -176,7 +180,8 @@ ALTER TABLE
   });
 ```
 
-## PostMan to Send Request to PostgreSQL
+
+### PostMan to Send Request to PostgreSQL
 - POST: http://localhost:3030/message
 ```json
 {
@@ -186,6 +191,21 @@ ALTER TABLE
 }
 ```
 
+
+***
+
+## Database Notes
+As with most scenarios in development, you need to use the right tool that best matches the problem you need to solve.
+
+* Document datastores allow for nested of child relationships
+
+* Columnar datastores allow for good storage and scalability
+
+* Graph databases allow highly related data to be stored and queried efficiently.
+
+* Timeseries databases store temporal data in efficient formats.
+
+* Relational databases use a vector and join heirachy to store data.
 
 
 
