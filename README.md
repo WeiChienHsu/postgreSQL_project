@@ -1,10 +1,19 @@
-# PostgreSQL 
+# PostgreSQL based Project
+
 Backend Basics with Node.js, PostgreSQL, Sequelize and FeathersJS
+- 
 
-- Sequelize is a promise-based ORM for Node.js v4 and up. It supports the dialects PostgreSQL, MySQL, SQLite and MSSQL and features solid transaction support, relations, read replication and more.
-- Sequelize 是一个基于promise 的适用于Node.js 和io.js 的ORM（译者注： Object-Relational Mapping 把关系数据库的表结构映射到对象）
+## Sequelize
+[documnet](http://docs.sequelizejs.com/manual/installation/usage.html#postgresql)
+Sequelize is a promise-based ORM for Node.js v4 and up. It supports the dialects PostgreSQL, MySQL, SQLite and MSSQL and features solid transaction support, relations, read replication and more.
 
-## Run the App
+- Sequelize 是一个基于promise 的适用于Node.js 和io.js 的ORM
+- Object-Relational Mapping 把关系数据库的表结构映射到对象
+
+## feathersJS
+[document](https://docs.feathersjs.com/api/readme.html)
+An open source REST and realtime API layer for modern applications.
+
 
 
 
