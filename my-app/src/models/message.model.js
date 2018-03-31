@@ -11,6 +11,14 @@ module.exports = function (app) {
     },
     message: {
       type: DataTypes.TEXT,
+    },
+    createdAt: {
+      type: DataTypes.DATE,
+      field: 'createdat'
+    },
+    updatedAt: {
+      type: DataTypes.DATE,
+      field: 'updatedat'
     }
   }, {
     hooks: {
