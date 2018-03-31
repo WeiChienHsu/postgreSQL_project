@@ -1,7 +1,9 @@
 # PostgreSQL based Project
 
 Backend Basics with Node.js, PostgreSQL, Sequelize and FeathersJS
-- 
+
+## References
+[Why We Moved From NoSQL MongoDB to PostgreSQL](https://dzone.com/articles/why-we-moved-from-nosql-mongodb-to-postgresql)
 
 ## Sequelize
 [documnet](http://docs.sequelizejs.com/manual/installation/usage.html#postgresql)
