@@ -214,3 +214,7 @@ As with most scenarios in development, you need to use the right tool that best 
 ## Tutorial
 [Back-end Basics with Node.js, PostgreSQL, Sequelize, and FeathersJS](https://blog.cloudboost.io/back-end-basics-with-node-js-postgresql-sequelize-and-feathersjs-7ed89b3cd353)
 
+
+***
+
+## PostgreSQL Query 
